@@ -1,0 +1,41 @@
+{
+    "eslint.options": {
+        "plugins": [
+            "react"
+        ],
+        "parserOptions": {
+            "ecmaFeatures": {
+                "jsx": true
+            }
+        },
+        "rules": {
+            "react/prop-types": "warn",
+            "react/no-direct-mutation-state": "error",
+            "react/default-props-match-prop-types": "warn",
+            "react/no-unused-state": "warn"
+        }
+    },
+    // "eslint.autoFixOnSave": true,
+    // "javascript.format.enable": false,
+    "editor.formatOnSave": true,
+    "extensions.ignoreRecommendations": true,
+    "git.enableSmartCommit": true,
+    "files.exclude": {
+        "node_modules/": true,
+        "**/._*": true,
+        "**/node_modules/": true,
+        "**/.expo/": true
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "prettier.eslintIntegration": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "files.associations": {
+        ".babelrc": "json5"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": false,
+}
